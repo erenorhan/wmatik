@@ -18,8 +18,8 @@ class Build
     {
 
         //$this->app['workDir']=$currentWorkDir;
-        echo " -> master : " . $currentWorkDir . "\n";
-        echo "xxxxxx";
+        echo " -> Builfing : " . $currentWorkDir . "\n";
+        
         $dataLocal = '';
 
         $dataGlobal = '';
