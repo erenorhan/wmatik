@@ -18,8 +18,8 @@ class Build
     {
 
         //$this->app['workDir']=$currentWorkDir;
-        echo " -> kaka : " . $currentWorkDir . "\n";
-        echo "xxxxxx";
+        echo " -> newb : " . $currentWorkDir . "\n";
+        
         $dataLocal = '';
 
         $dataGlobal = '';
