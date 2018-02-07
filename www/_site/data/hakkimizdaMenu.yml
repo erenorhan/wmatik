@@ -1,0 +1,10 @@
+data:
+-
+    name    : "Misyon"
+    url     : "hakkimizda/misyon"
+-
+    name    : "Vizyon"
+    url     : "hakkimizda/vizyon"
+-
+    name    : "Tarihce"
+    url     : "hakkimizda/tarihce"

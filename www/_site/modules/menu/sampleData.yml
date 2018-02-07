@@ -1,0 +1,21 @@
+data:
+-
+    name    : "About"
+    title   : "About Us"
+    desc    : "About Us Desc."
+    url     : "/about"
+-
+    name    : "Product"
+    title   : "Our Products"
+    desc    : "Product Desc."
+    url     : "/product/tarihce"
+-
+    name    : "Computer"
+    title   : "Product - Computer"
+    desc    : "Product - Computer Desc."
+    url     : "/product/computer"
+-
+    name    : "Contact"
+    title   : "Contact Us"
+    desc    : "Contact Us Desc."
+    url     : "/contact"

@@ -1,0 +1,10 @@
+data:
+-
+    name    : "Hakkımızda"
+    url     : "hakkimizda"
+-
+    name    : "Ürünler"
+    url     : "urunler"
+-
+    name    : "İletişim"
+    url     : "iletisim"

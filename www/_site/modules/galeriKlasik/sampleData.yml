@@ -1,0 +1,25 @@
+
+config:
+  title: Galeri
+  description : Galeri Açıklama
+  column : 4
+  resize: "360x240"
+  effect: "effect3"
+
+data:
+  - 
+    name        : "image1.jpg"
+    title    : "Image 1 Title"
+    description : "Image 1 Description"
+ - 
+    name        : "image2.jpg"
+    title    : "Image 2 Title"
+    description : "Image 2 Description"
+- 
+    name        : "image3.jpg"
+    title    : "Image 3 Title"
+    description : "Image 3 Description"
+- 
+    name        : "image4.jpg"
+    title    : "Image 4 Title"
+    description : "Image 4 Description"

@@ -1,0 +1,6 @@
+{# MenuVertiacal#}
+      <ul class="list-group">
+          {% for st in global.hakkimizdaMenu.data%}
+            <li class="list-group-item"><a href="{{ st.url}}">{{ st.name }}</a></li>
+          {%endfor%}
+      </ul>

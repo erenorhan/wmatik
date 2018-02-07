@@ -1,0 +1,9 @@
+echo "# wmatik" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/ahmetorhans/wmatik.git
+git push -u origin master
+
+--remove gitignore cahce
+git rm --cached <file>

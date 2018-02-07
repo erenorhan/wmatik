@@ -1,0 +1,30 @@
+
+config:
+  title: Galeri
+  description : Galeri Açıklama
+  date : 12.12.2017
+  column : 4
+  resize: "360x240"
+  effect: "effect3"
+
+data:
+  - 
+    name        : "exterior 1.jpg"
+    title    : "xxx"
+    description : "2 DEssc"
+  - 
+    name        : "exterior 2.jpg"
+    title    : "2 Başlık"
+    description : "3 DEssc"
+  - 
+    name        : "exterior 3.jpg"
+    title    : "3 Başlık"
+    description : "3 DEssc"
+  - 
+    name        : "exterior 4.jpg"
+    title    : "4 Başlık"
+    description : "3 DEssc"
+  - 
+    name        : "exterior 1.jpg"
+    title    : "3 Başlık"
+    description : "3 DEssc"

@@ -1,0 +1,15 @@
+{# Page : /hakkimizda/biz  #}
+{% extends "_site/layout/base.twig" %}
+{% block content %}
+        <div class="row">
+                <div class="col-3">
+                      {% include '_site/layout/hakkimizdaMenu.twig'%}      
+                </div>
+                denem
+                <div class="col-9">
+                        <h1>Biz</h1>
+                        {{get.module('slide')}}
+                         {{get.module('galeriKlasik','demoGaleriData')}}
+                </div>
+        </div>
+{% endblock %}

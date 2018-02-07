@@ -1,0 +1,21 @@
+<h1 class="display-4">{{config.title}}</h1>
+<p class="lead">{{config.description}}</p>
+<div class="row">
+    {% for st in data%}
+        <div class="col-md-{{config.column | default('3')}} nopadding" >
+
+            <div class="{{config.effect}} boxColor" style="padding:10px;margin:15px;">
+                <a href="{{ get.image(st.name) }}" data-fancybox data-caption="{{st.title}}">
+                    <img class="img-fluid" src="{{ get.thumb(st.name,config.resize) }}" alt="" />
+                </a>
+                 <h3 class="boxColorHeader">{{st.title}}</h3>
+                <small class="boxColorText">{{st.name}}</small>
+                <div>
+                    <btn class="btn btn-primary">Devam</btn>
+                </div>
+            </div>
+            
+        </div>
+    {%endfor%}
+</div>
+

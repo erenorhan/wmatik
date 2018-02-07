@@ -1,0 +1,16 @@
+{
+    "require": {
+      
+        "symfony/yaml": "^3.4",
+        "twig/twig": "^1.35",
+        "gumlet/php-image-resize": "1.7.*",
+        "jasonlewis/resource-watcher": "1.2.*"
+        
+    },
+    "autoload": {
+        "psr-0": {
+            "Wmatik": "App/"
+        }
+    }
+
+}

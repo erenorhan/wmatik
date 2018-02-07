@@ -1,0 +1,12 @@
+title: 
+{{config.title}}
+<div class="row">
+    {% for st in data%}
+        <div class="col-md-{{config.column | default('3')}}" style="background-color:#efefef">
+            <a href="{{ get.image(st.name) }}" data-fancybox data-caption="{{st.title}}">
+                <img src="{{ get.thumb(st.name,config.resize) }}" alt="" />
+            </a>
+        </div>
+    {%endfor%}
+</div>
+

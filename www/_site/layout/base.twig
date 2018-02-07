@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        {% include '_site/layout/header.twig' %}
+    </head>
+
+    <body>
+    <div id="site">
+        <div id="header">
+            {% include '_site/layout/menu.twig' %} 
+         </div>
+        <div id="content">
+            {% block content %}{% endblock %}
+        </div>
+        <div id="footer">
+             {% include '_site/layout/footer.twig' %}   
+        </div>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+
+config:
+    title: İndex galeri
+    description : Desc Module
+    column : 3
+    resize : "300X200"
+
+data:
+  - 
+    name        : "bg.jpg"
+    title    : "xxxxx Başlık"
+    description : "2 DEssc"
+  - 
+    name        : "2.png"
+    title    : "3 Başlık"
+    description : "3 DEssc"
+  - 
+    name        : "3.png"
+    title    : "2 Başlık"
+    description : "2 DEssc"
+  - 
+    name        : "4.png"
+    title    : "3 Başlık"
+    description : "3 DEssc"    
