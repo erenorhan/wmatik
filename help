@@ -7,3 +7,12 @@ git push -u origin master
 
 --remove gitignore cahce
 git rm --cached <file>
+
+
+git checkout --orphan TEMP
+git add -A
+git commit -m "Work"
+git branch -D work
+git branch -m work
+git push -f origin master
+git branch -v
