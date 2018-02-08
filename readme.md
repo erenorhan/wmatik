@@ -1,5 +1,5 @@
 Wmatik static site generator.
-XXX
+c
 Build all files.
 #w build
 or
