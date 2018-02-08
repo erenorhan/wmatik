@@ -1,6 +1,4 @@
 Wmatik static site generator.
---
-
 
 Build all files.
 
