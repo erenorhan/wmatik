@@ -1,9 +1,16 @@
 Wmatik static site generator.
+--
+
 
 Build all files.
+
 #w build
+
 or
+
 #php bin/index.php build
+
+
 
 Build specified file.
 #w build <filename>
