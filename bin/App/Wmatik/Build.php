@@ -18,7 +18,7 @@ class Build
     {
 
         //$this->app['workDir']=$currentWorkDir;
-        echo " -> Builfing : " . $currentWorkDir . "\n";
+        echo " -> Building : " . $currentWorkDir . "\n";
         
         $dataLocal = '';
 
